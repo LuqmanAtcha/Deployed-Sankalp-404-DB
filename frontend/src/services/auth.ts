@@ -2,7 +2,7 @@ import axios from "axios";
 import { LoginCredentials, LoginResponse } from "../types/auth.js";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/auth",
+  baseURL: "https://deployed-sankalp-404-db.onrender.com/api/auth",
   headers: {
     "Content-Type": "application/json",
   },
