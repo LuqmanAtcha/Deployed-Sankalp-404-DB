@@ -71,7 +71,7 @@ const HostGamePage: React.FC = () => {
       socketRef.current.disconnect();
     }
 
-    const socket = io("http://localhost:5000", {
+    const socket = io("https://deployed-sankalp-404-db.onrender.com", {
       forceNew: true,
       reconnection: true,
       reconnectionAttempts: 5,
